@@ -1,41 +1,38 @@
 # hex-labs-website
 
-This project was bootstrapped with Create React App.
-
 A website built with React.js for Hex labs that helps them to show case there products and services.
 
 ## Built With
 
-    ✔️ React.js
-    ✔️ React-Bootstarp
-    ✔️ Bootstrap
-    ✔️ CSS3
-    ✔️Framer-Motion
+- React.js ✔️
+- React-Bootstarp ✔️
+- Bootstrap ✔️
+- CSS3 ✔️
+- Framer-Motion ✔️
 
 ## Online demo
 
 ## Getting Started
 
 To get the copy of this project in your computer,clone this repository or just download it.
-Prerequisites
 
-    ⤵️ Code editor like vs code
-    ⤵️ Node.js installed
+# Prerequisites
 
-Setup
+- ⤵️ Code editor like vs code
+- ⤵️ Node.js installed
 
-    Download or clone the repository
-    Open the folder in your IDE
-    Install the dependencies
-    Open the index.html in your browser and check it
-    Add your addition
-    Push to your github or deploy to cloud
+# Setup
 
-Authors
+- Download or clone the repository
+- Open the folder in your IDE
+- Install the dependencies
+- Open the index.html in your browser and check it
+- Add your addition
+- Push to your github or deploy to cloud
+
+# Authors
 
 👤 Worash
-
-🤝 Contributing
 
 - GitHub: [@Worashf](https://github.com/worashf)
 - Twitter: [@WorashAboche](https://twitter.com/WorashAboche)
