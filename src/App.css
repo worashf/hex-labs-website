@@ -141,3 +141,7 @@
   right: 0;
   left: auto;
 }
+
+.footer-bg {
+  background-image: url("/src/assets//images/footer-widgets-bg.png");
+}
