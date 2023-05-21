@@ -46,22 +46,22 @@ const Footer = () => {
                 </div>
                 <ul>
                   <li>
-                    <a href="services.html">What We Do</a>
+                    <Link to="/service">What We Do</Link>
                   </li>
                   <li>
-                    <a href="contact.html">About Us</a>
+                    <Link to="/contact">About Us</Link>
                   </li>
                   <li>
-                    <a href="services.html">IT Solutions</a>
+                    <Link to="/services">IT Solutions</Link>
                   </li>
                   <li>
-                    <a href="team.html">Our Team</a>
+                    <Link to="/team">Our Team</Link>
                   </li>
                   <li>
-                    <a href="project-details.html">Case Study</a>
+                    <Link to="/project-details">Case Study</Link>
                   </li>
                   <li>
-                    <a href="contact.html">Contact Us</a>
+                    <Link to="/contact">Contact Us</Link>
                   </li>
                 </ul>
               </div>
@@ -74,22 +74,24 @@ const Footer = () => {
                 </div>
                 <ul>
                   <li>
-                    <a href="#">IT Solutions</a>
+                    <Link to="#">IT Solutions</Link>
                   </li>
                   <li>
-                    <a href="#">Technology</a>
+                    <Link to="#">Technology</Link>
                   </li>
                   <li>
-                    <a href="#">WordPress Theme</a>
+                    <Link to="#">WordPress Theme</Link>
                   </li>
                   <li>
-                    <a href="#">digital marketing</a>
+                    <Link to="#">digital marketing</Link>
                   </li>
                   <li>
-                    <a href="#">Tech consultant</a>
+                    <Link Link to="#">
+                      Tech consultant
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">web agency</a>
+                    <Link to="#">web agency</Link>
                   </li>
                 </ul>
               </div>
