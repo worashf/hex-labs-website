@@ -27,7 +27,7 @@ const TopNav = () => {
             <FontAwesomeIcon icon={faEnvelope} style={{ margin: "0 0.5rem" }} />
             cto@hexlabs.tech
           </a>
-          <a href="#">
+          <a href="#hex-labs-address">
             <FontAwesomeIcon
               icon={faLocationDot}
               style={{ margin: "0 0.5rem" }}
