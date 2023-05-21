@@ -12,15 +12,14 @@ import {
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 
+import { Link } from "react-router-dom";
+
 import footerLOgo from "../../assets/images/logo.jpg";
 
 const Footer = () => {
   return (
     <footer class="footer-1 footer-wrap">
-      <div
-        class="footer-widgets-wrapper text-white bg-cover"
-        style={{ backgroundImage: "../../assets/img/footer-widgets-bg.png" }}
-      >
+      <div class="footer-widgets-wrapper text-white bg-cover footer-bg">
         <div class="container">
           <div class="row">
             <div class="col-sm-6 col-xl-3">
@@ -161,16 +160,20 @@ const Footer = () => {
               </div>
               <div class="col-md-6 mt-2 mt-md-0 col-12 text-md-end">
                 <div class="social-links">
-                  <a href="#">
+                  <a href="#hex-labs-facebook" target="_blank" rel="noreferrer">
                     <FontAwesomeIcon icon={faFacebook} aria-hidden="true" />
                   </a>
-                  <a href="#">
+                  <a href="#hex-labs-twitter" target="_blank" rel="noreferrer">
                     <FontAwesomeIcon icon={faTwitter} aria-hidden="true" />
                   </a>
-                  <a href="#">
+                  <a
+                    href="https://www.linkedin.com/company/hexlabs-et/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <FontAwesomeIcon icon={faLinkedinIn} aria-hidden="true" />
                   </a>
-                  <a href="#">
+                  <a href="#hex-labs-yotube" target="_blank" rel="noreferrer">
                     <FontAwesomeIcon icon={faYoutube} aria-hidden="true" />
                   </a>
                 </div>
