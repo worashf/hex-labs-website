@@ -7,12 +7,12 @@ const OurExperiance = () => {
         <div class="row align-center">
           <div class="col-lg-6 col-12">
             <div class="about-img-funfact-content me-xl-3">
-              <img src={aboutImage} class="img-round" alt="" />
+              <img src={aboutImage} class="img-round" alt="hex-labs-logo" />
 
               <div class="fun-fact-bar wow fadeInDown">
                 <div class="year-img">
-                  <h3>25</h3>
-                  <img src="assets/img/icons/award.png" alt="" />
+                  <h3>2</h3>
+                  <img src="assets/img/icons/award.png" alt="award" />
                 </div>
                 <p>Years Of Experience</p>
               </div>

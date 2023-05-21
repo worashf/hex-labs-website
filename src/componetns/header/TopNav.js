@@ -37,16 +37,16 @@ const TopNav = () => {
         </div>
         <div className="top-right d-none d-md-block">
           <div className="social-pages">
-            <a href="#">
+            <a href="#hex-labs-facebook">
               <FontAwesomeIcon icon={faFacebook} aria-hidden="true" />
             </a>
-            <a href="#">
+            <a href="#hex-labs-twitter">
               <FontAwesomeIcon icon={faTwitter} aria-hidden="true" />
             </a>
-            <a href="#">
+            <a href="#hex-labs-linkedin">
               <FontAwesomeIcon icon={faLinkedinIn} aria-hidden="true" />
             </a>
-            <a href="#">
+            <a href="#hex-labs-yotube">
               <FontAwesomeIcon icon={faYoutube} aria-hidden="true" />
             </a>
           </div>

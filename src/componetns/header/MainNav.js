@@ -11,7 +11,7 @@ const MainNav = () => {
           <div className="col-lg-3 col-sm-5 col-md-4 col-6 pr-lg-5">
             <div className="logo">
               <Link to="#">
-                <img src={logo} alt="quantech" />
+                <img src={logo} alt="hex-labs" />
               </Link>
             </div>
           </div>
@@ -60,10 +60,7 @@ const MainNav = () => {
                 <button type="button" className="close-nav">
                   <FontAwesomeIcon icon={faXmark} />
                 </button>
-                <nav className="sidebar-nav">
-              
-               
-                </nav>
+                <nav className="sidebar-nav"></nav>
 
                 <div className="action-bar text-white">
                   <div className="single-info-element">

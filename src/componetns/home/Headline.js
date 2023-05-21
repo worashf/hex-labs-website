@@ -54,7 +54,11 @@ const Headeline = () => {
                     </a>
                   </div>
                   <div>
-                    <img src={slideShow.url} className="headline-image " />
+                    <img
+                      src={slideShow.url}
+                      className="headline-image "
+                      alt="hero-slide-show"
+                    />
                   </div>
                 </div>
               </div>
