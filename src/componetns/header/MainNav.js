@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import logo from "../../assets/images/logo.jpg";
 
 const MainNav = () => {
@@ -7,9 +10,9 @@ const MainNav = () => {
         <div className="row align-items-center justify-content-between">
           <div className="col-lg-3 col-sm-5 col-md-4 col-6 pr-lg-5">
             <div className="logo">
-              <a href="index.html">
+              <Link to="#">
                 <img src={logo} alt="quantech" />
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-lg-9 text-end p-lg-0 d-none d-lg-flex justify-content-between align-items-center">
@@ -17,101 +20,49 @@ const MainNav = () => {
               <div className="main-menu">
                 <ul>
                   <li>
-                    <a href="#">
-                      Home <i className="fas fa-angle-down"></i>
-                    </a>
+                    <Link to="#">Home</Link>
                   </li>
 
                   <li>
-                    <a href="services.html">services</a>
+                    <Link to="#">services</Link>
                   </li>
                   <li>
-                    <a href="projects.html">projects</a>
+                    <Link to="#">projects</Link>
                   </li>
 
                   <li>
-                    <a href="news.html">Blogs</a>
+                    <Link to="#">Blogs</Link>
                   </li>
                   <li>
-                    <a href="about.html">About</a>{" "}
+                    <Link to="#">About</Link>{" "}
                   </li>
                   <li>
-                    <a href="contact.html">Contact</a>
+                    <Link to="#">Contact</Link>
                   </li>
                 </ul>
               </div>
             </div>
             <div className="header-right-element">
-              <a href="contact.html" className="theme-btn">
+              <Link to="#" className="theme-btn">
                 get a quote
-              </a>
+              </Link>
             </div>
           </div>
           <div className="d-block d-lg-none col-sm-1 col-md-8 col-6">
             <div className="mobile-nav-wrap">
               <div id="hamburger">
-                <i className="fal fa-bars"></i>
+                <FontAwesomeIcon icon={faBars} />
               </div>
               {
                 //<!-- mobile menu - responsive menu  -->
               }
               <div className="mobile-nav">
                 <button type="button" className="close-nav">
-                  <i className="fal fa-times-circle"></i>
+                  <FontAwesomeIcon icon={faXmark} />
                 </button>
                 <nav className="sidebar-nav">
-                  <ul className="metismenu" id="mobile-menu">
-                    <li>
-                      <a className="has-arrow" href="#">
-                        Homes
-                      </a>
-                      <ul className="sub-menu">
-                        <li>
-                          <a href="index.html">Homepage 1</a>
-                        </li>
-                        <li>
-                          <a href="index-2.html">Homepage 2</a>
-                        </li>
-                        <li>
-                          <a href="index-3.html">Homepage 3</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="about.html">about</a>
-                    </li>
-                    <li>
-                      <a href="services.html">services</a>
-                    </li>
-                    <li>
-                      <a href="projects.html">projects</a>
-                    </li>
-                    <li>
-                      <a className="has-arrow" href="#">
-                        Pages
-                      </a>
-                      <ul className="sub-menu">
-                        <li>
-                          <a href="faq.html">faq</a>
-                        </li>
-                        <li>
-                          <a href="services-details.html">services details</a>
-                        </li>
-                        <li>
-                          <a href="team.html">Team</a>
-                        </li>
-                        <li>
-                          <a href="404.html">404</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="news.html">News</a>
-                    </li>
-                    <li>
-                      <a href="contact.html">Contact</a>
-                    </li>
-                  </ul>
+              
+               
                 </nav>
 
                 <div className="action-bar text-white">
